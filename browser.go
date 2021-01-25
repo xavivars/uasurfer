@@ -40,7 +40,7 @@ func (u *UserAgent) evalBrowserName(ua string) bool {
 		case strings.Contains(ua, "silk/"):
 			u.Browser.Name = BrowserSilk
 
-		case strings.Contains(ua, "msie") || strings.Contains(ua, "wow64") || strings.Contains(ua, "iemobile/"):
+		case strings.Contains(ua, "msie") || strings.Contains(ua, "iemobile/"):
 			u.Browser.Name = BrowserIE
 
 		case strings.Contains(ua, "edg/") || strings.Contains(ua, "edgios/") || strings.Contains(ua, "edga/")|| strings.Contains(ua, "edge/") :
