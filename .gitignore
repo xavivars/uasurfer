@@ -54,3 +54,7 @@ Thumbs.db
 # Dev Tools #
 ######################
 .vagrant
+
+
+# IDE
+.idea
